@@ -9,9 +9,9 @@
 setwd("C:/Daten/GitHub/NgsSim/data/yeast/refgen")
 
 ### # load Bsgenome to work with genomes in BioC
-library(BSgenome)
 library(Biostrings)
 library(ShortRead)
+library(BSgenome)
 
 ### # check which yeast genomes are available
 sYestGenomeSearchName  <- "BSgenome.Scerevisiae"
